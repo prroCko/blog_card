@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* opcional, para contraste */
+}
+
+.mainCard{
+  background: linear-gradient(#464646, #111111);
+  width: 90vw;
+  max-width: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.mainCard .autumn {
+  width: 100%;
+  height: auto;
+  max-height: 40vh; /* limita la altura de la imagen */
+  object-fit: cover; /* recorta sin deformar */
+}
+
+h2{
+  color: #f8f9fa;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.category{
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #ffbf00;
+  color: #111111;
+  margin: 10px 0 0 20px;
+  font-weight: 600;
+}
+
+.profile h3{
+  color: #f8f8f8;
+}
+
+p{
+  color: #e1e2e4;
+  padding: 20px;
+  text-align: justify;
+}
+
+a{
+  text-decoration: none; color: #ffbf00; padding: 0 20px; transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover{
+  text-decoration: underline; color: #f8f9fa;
+}
+
+.profilePicture{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
